@@ -1,0 +1,33 @@
+.sortList{
+    margin-top: 80px;
+}
+
+.usersList__header-column{
+    display: inline-block;
+}
+
+.usersList__header{
+    max-width: 1150px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.usersList__wrapper{
+    border-bottom: 2px solid rgb(204, 199, 199);
+}
+
+.usersList{
+    background: #fff;
+    width: 100%;
+    border-radius: 15px;
+    padding: 0 20px;
+}
+
+.usersList__items{
+    margin: 0;
+    padding: 0;
+}

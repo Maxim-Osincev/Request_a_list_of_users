@@ -1,0 +1,19 @@
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid rgb(204, 199, 199);
+    list-style: none;
+}
+
+.listItem__column{
+    max-width: 25%;
+    width: 100%;
+}
+
+.listItem__remove{
+    transform: rotate(45deg);
+    font-size: 25px;
+    padding: 0 10px;
+}
